@@ -1,0 +1,72 @@
+body {
+    background-color: #03001c;
+}
+
+.heading {
+    background-color: #E1F7F5;
+    font-family: "Recursive", sans-serif;
+    width: 30rem;
+    padding: 0.3rem 0;
+    margin: 2rem auto;
+    border-radius: 12px 100px / 120px;
+}
+
+.heading h1 {
+    text-align: center;
+}
+
+.addTask {
+    padding: 0.3rem 0;
+    margin: 2rem auto;
+    display: flex;
+    justify-content: center;
+}
+
+.addTask input {
+    font-family: "Recursive", sans-serif;
+    width: 20rem;
+    height: 2rem;
+    border-radius: 0.1rem;
+    padding: 0 0.7rem;
+    margin-right: 1rem;
+    border-radius: 2rem;
+}
+
+.addTask button {
+    padding: 0 1.5rem;
+    font-family: "Recursive", sans-serif;
+    background-color: #9AC8CD;
+    color: #03001c;
+    font-weight: 700;
+    border: none;
+    border-radius: 25%;
+}
+
+.taskList {
+    margin: auto;
+    align-items: center;
+    width: 30rem;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.taskList ul{
+    padding: 1px;
+}
+
+.taskList ul li{
+    padding: 7px;
+    display: flex;
+    justify-content: space-between;
+    font-family: "Recursive", sans-serif;
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+.taskList ul li .delete{
+    border: none;
+    background-color: #03001c;
+    color: white;
+    border-radius: 50%;
+    font-size: 1rem;
+}
