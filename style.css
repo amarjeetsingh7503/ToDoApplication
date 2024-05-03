@@ -44,6 +44,7 @@ body {
 
 .addTask input:focus {
     border-color: skyblue;
+    box-shadow: 1px 3px 1px skyblue;
     outline: none;
 }
 
