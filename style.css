@@ -20,7 +20,7 @@ body {
 }
 
 .addTask {
-    padding: 0.3rem 0;
+    padding: 1rem 0;
     margin: 2rem auto;
     display: flex;
     justify-content: center;
@@ -38,8 +38,13 @@ body {
 }
 
 .addTask input:hover {
-    scale: 1.05;
-    box-shadow: 1px 1px 5px skyblue;
+    scale: 1.005;
+    box-shadow: 1px 3px 1px skyblue;
+}
+
+.addTask input:focus {
+    border-color: skyblue;
+    outline: none;
 }
 
 .addTask button {
@@ -51,11 +56,12 @@ body {
     border: none;
     border-radius: 25%;
     transition: 0.2s;
+    cursor: pointer;
 }
 
 .addTask button:hover {
-    scale: 1.05;
-    box-shadow: 2px 2px 10px skyblue;
+    scale: 1.005;
+    box-shadow: 1px 3px 10px skyblue;
 }
 
 .taskList {
@@ -85,6 +91,7 @@ body {
     color: white;
     border-radius: 50%;
     font-size: 1rem;
+    cursor: pointer;
 }
 
 @media screen and (max-width: 450px) {
