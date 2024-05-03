@@ -121,6 +121,11 @@ body {
         font-size: smaller;
     }
 
+    .addTask button:hover {
+        scale: 1;
+        box-shadow: none;
+    }
+
     .taskList {
         width: 80%;
         font-size: smaller;
