@@ -15,6 +15,10 @@ body {
     text-align: center;
 }
 
+.heading h3 {
+    display: none;
+}
+
 .addTask {
     padding: 0.3rem 0;
     margin: 2rem auto;
@@ -30,6 +34,12 @@ body {
     padding: 0 0.7rem;
     margin-right: 1rem;
     border-radius: 2rem;
+    transition: 0.2s;
+}
+
+.addTask input:hover {
+    scale: 1.05;
+    box-shadow: 1px 1px 5px skyblue;
 }
 
 .addTask button {
@@ -40,6 +50,12 @@ body {
     font-weight: 700;
     border: none;
     border-radius: 25%;
+    transition: 0.2s;
+}
+
+.addTask button:hover {
+    scale: 1.05;
+    box-shadow: 2px 2px 10px skyblue;
 }
 
 .taskList {
@@ -69,4 +85,37 @@ body {
     color: white;
     border-radius: 50%;
     font-size: 1rem;
+}
+
+@media screen and (max-width: 450px) {
+    .heading {
+        width: 68%;
+        text-align: center;
+    }
+
+    .heading h1 {
+        display: none;
+    }
+
+    .heading h3 {
+        display: block;
+        margin: 1rem;
+    }
+
+    .addTask input {
+        width: 40%;
+        height: 2rem;
+        font-size: smaller;
+    }
+
+    .addTask button {
+        width: 20%;
+        height: 2.1rem;
+        font-size: smaller;
+    }
+
+    .taskList {
+        width: 80%;
+        font-size: smaller;
+    }
 }
