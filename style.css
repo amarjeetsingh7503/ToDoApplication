@@ -87,8 +87,8 @@ body {
 
 .taskList ul li .delete{
     border: none;
-    background-color: #03001c;
-    color: white;
+    color: #03001c;
+    font-weight: 600;
     border-radius: 50%;
     font-size: 1rem;
     cursor: pointer;
@@ -121,13 +121,13 @@ body {
         font-size: smaller;
     }
 
-    .addTask button:hover {
-        scale: 1;
-        box-shadow: none;
-    }
-
     .taskList {
         width: 80%;
         font-size: smaller;
+    }
+
+    .addTask button:hover {
+        scale: 1;
+        box-shadow: none;
     }
 }
