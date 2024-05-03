@@ -119,6 +119,8 @@ body {
         width: 20%;
         height: 2.1rem;
         font-size: smaller;
+        background-color: #fff;
+        border: none;
     }
 
     .taskList {
